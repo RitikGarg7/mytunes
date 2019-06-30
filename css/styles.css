@@ -1,0 +1,199 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 1.6;
+    background-color: #252529;
+}
+
+*{
+    border:0;
+    margin:0;
+}
+p{
+    font-size: 1.3rem;
+}
+h3{
+    font-size: 2rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+img{
+    width: 100%;
+}
+.header{
+    background-image: url(../img/showcase.jpg);
+}
+
+.container{
+    margin: auto;
+    width:80%;
+    text-align: center;
+}
+
+.navbar{
+    background-color: #333;
+    color:#eee;
+    /* position: fixed; */
+    width: 100%;
+    position:fixed;
+   top:0;
+   /* padding: 2px; */
+}
+
+.navbar ul {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.navbar ul li {
+    padding: 14px ;
+    cursor: pointer;
+}
+.navbar ul :hover{
+    transform:scale(1.1);
+    background-color: grey;
+}
+
+.mytunes {
+    text-align: center;
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top:20vh;
+   
+   
+}
+/* 
+.mytunes h1{
+    margin-top:25vh;
+} */
+
+ .mytunes h1{
+    font-weight: bold;
+    font-size:4rem;
+}
+.mytunes h2{
+    font-size: 2rem;
+}
+
+ .mytunes p{
+     margin-top: 40px;
+    font-size: 1.3rem;
+} 
+
+/* music */
+
+.music{
+    color: #fff;
+    padding: 5rem 0;
+}
+
+/* movies */
+
+.movies{
+    padding: 5rem 0;
+    background-color: #fff;
+}
+
+/* entertainemnt */
+
+.entertainment{
+    background-image: url(../img/section-bg.jpg) ;
+    color: #fff;
+    padding:10rem 0;
+   
+}
+
+
+
+.gift-cards{
+    background-color: #fff;
+    min-height: 400px;
+    vertical-align: 50%;
+    /* background-color: #333; */
+    padding:2rem 0;
+    color: #333;
+}
+
+.gift-cards h2{
+    font-size: 1.5rem;
+}
+
+.gift-cards a{
+    color: #333;
+    text-decoration: none;
+}
+
+.img-container {
+    float: left;
+   display: block;
+    width:400px;
+}
+
+
+
+.text-container{
+    /* float:right; */
+    display: inline;
+    text-align: left;
+    /* flex-wrap: ; */
+    overflow: auto;
+}
+
+
+.footer{
+    
+    padding: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.trademark{
+   
+    background: #333;
+    width:100%;
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 0.5rem;
+ 
+}
+.head{
+    text-align: center;
+}
+
+ul li {
+    list-style-type: none;
+}
+.father{
+    text-align: left;
+}
+
+hr{
+    width:20%;
+    color: #fff;
+}
+
+
+.start{
+    padding: 1rem;
+    color: #fff;
+    background-color: red;
+    margin-bottom: 1rem;
+}
+
+.read{
+    padding: 1rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    background-color: blue;
+}
+
+.redeem{
+    color:#103063;
+}
